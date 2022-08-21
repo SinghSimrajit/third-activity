@@ -1,0 +1,16 @@
+
+from ast import If, Str
+import string
+
+#    check its string or number
+   
+   
+    
+    
+word1 = 0
+
+word1 = input("Enter the number: ")
+if word1.isdigit():
+    print("User input is number")
+else:
+    print("User input is string")
